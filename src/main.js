@@ -130,7 +130,7 @@ function createWindow() {
     if (tray) {
         tray.destroy;
     }
-    tray = createTray(iconTray, 'Google Voice Tray');
+    tray = createTray(iconTray, 'Google Voice Desktop Tray');
 
     badgeGenerator = new BadgeGenerator(win);
 
